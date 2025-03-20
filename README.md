@@ -26,13 +26,23 @@ This is a Exprress.js training/learning project, set by [Codecademy][codecademy]
 
 #### Setup instructions
 
-"If you choose to do this project on your computer instead of Codecademy, you can download what you’ll need by clicking the “Download” button below. You’ll need to open and work in server.js in a text editor. To edit server.js, use your text editor of choice. If you need a recommendation or help to install an editor, we recommend looking into our article about setting up a text editor for web development (Follow along until you get to the section: “Practice: Let’s Make a Project”). To run your API on your computer, you will need to install Node.js. If you need help installing Node.js, read our article on installing Node."
+"If you choose to do this project on your computer instead of Codecademy, you can download what you’ll need by clicking the “Download” button below. You’ll need to open and work in **server.js** in a text editor. To edit **server.js**, use your text editor of choice. If you need a recommendation or help to install an editor, we recommend looking into our article about setting up a text editor for web development (Follow along until you get to the section: “Practice: Let’s Make a Project”). To run your API on your computer, you will need to install Node.js. If you need help installing Node.js, read our article on installing Node."
 
-"Once you have an editor an Node.js set up, download the project, unzip it, navigate to that folder in your terminal and run npm install to install Express before trying to start up your server."
+"Once you have an editor an Node.js set up, download the project, unzip it, navigate to that folder in your terminal and run ```npm install``` to install Express before trying to start up your server."
 
 ## Prerequsites
 
 * To complete this project, you should have completed the Express Routes and Express Routers lessons from our Learn Express curriculum.
+
+## Project Requirements
+
+"You’ve been given some starter code in the form of a front-end site and some Express.js boilerplate. You’ll use this to build several route handlers to serve up interesting quotes. As you build out your app, test out the functionality either using our front-end or with a tool like Postman. Make sure to re-run ```node server.js``` as you make changes to the server, and visit ```localhost:4001``` in the browser to interact with the front-end."
+
+"As you work, your server at any point with ```Ctrl``` + ```C``` in the terminal, and then restart it to see new changes in its behavior."
+
+"In **server.js**, we’ve provided you with some imported helper functions and data:"
+* A ```quotes``` array with some pre-populated quotes about technology. Each quote in the array has a ```person``` and ```quote``` property. You can use our array or write your own, but make sure to have at least the ```person``` and ```quote``` properties, as the front-end that we’ve provided expects each quote to have them.
+* The ```getRandomElement()``` function, which takes an array and returns a random element from that array.
 
 ## Features
 
@@ -41,7 +51,7 @@ This is a Exprress.js training/learning project, set by [Codecademy][codecademy]
 ## Application Usage
 
 Download Files From [GitHub Repo][GitHubRepo] run command:
-```npm main.js```
+```npm server.js```
 
 ## Technologies & Prereqisites
 
