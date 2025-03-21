@@ -44,14 +44,10 @@ This is a Exprress.js training/learning project, set by [Codecademy][codecademy]
 * A ```quotes``` array with some pre-populated quotes about technology. Each quote in the array has a ```person``` and ```quote``` property. You can use our array or write your own, but make sure to have at least the ```person``` and ```quote``` properties, as the front-end that we’ve provided expects each quote to have them.
 * The ```getRandomElement()``` function, which takes an array and returns a random element from that array.
 
-## Features
-
-* **tbc:** tbc
-
 ## Application Usage
 
 Download Files From [GitHub Repo][GitHubRepo] run command:
-```npm server.js```
+```node server.js```
 
 ## Technologies & Prereqisites
 
@@ -63,7 +59,9 @@ Download Files From [GitHub Repo][GitHubRepo] run command:
 
 ## Future Improvements
 
-* tbc
+* Add a PUT route for updating quotes in the data. This might require adding some sort of unique ID for each quote in the array in data.js.
+* Add other data to the array, such as the year of each quote, and try to display it on the front-end.
+* Add another resource to your API in addition to quotes, such as biographical blurbs (you’ll need to find your own data for this new resource). Use Express Routers to keep your code simple and separated into different files for each router.
 
 ## Credits
 
